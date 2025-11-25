@@ -100,6 +100,7 @@ const Index = () => {
             MarketPro
           </div>
           <div className="hidden md:flex gap-8">
+            <a href="#about" className="hover:text-primary transition-colors">Обо мне</a>
             <a href="#services" className="hover:text-primary transition-colors">Услуги</a>
             <a href="#portfolio" className="hover:text-primary transition-colors">Портфолио</a>
             <a href="#blog" className="hover:text-primary transition-colors">Блог</a>
@@ -147,6 +148,65 @@ const Index = () => {
             <div className="text-center">
               <div className="text-4xl font-bold bg-gradient-to-r from-primary via-secondary to-accent bg-clip-text text-transparent">5 лет</div>
               <div className="text-muted-foreground mt-2">Опыта</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" className="py-20 px-4 bg-white">
+        <div className="container mx-auto max-w-6xl">
+          <div className="grid md:grid-cols-2 gap-12 items-center">
+            <div className="animate-fade-in">
+              <div className="relative">
+                <div className="absolute inset-0 bg-gradient-to-br from-primary/20 via-secondary/20 to-accent/20 rounded-3xl transform rotate-3"></div>
+                <img 
+                  src="https://cdn.poehali.dev/files/7e5d370b-19d7-4d1d-81b0-3cdf505d5e21.jpg" 
+                  alt="Маркетолог эксперт"
+                  className="relative rounded-3xl shadow-2xl w-full h-auto object-cover"
+                />
+              </div>
+            </div>
+            <div className="animate-fade-in-up">
+              <h2 className="text-4xl md:text-5xl font-bold mb-6 bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">
+                Обо мне
+              </h2>
+              <p className="text-lg text-muted-foreground mb-6 leading-relaxed">
+                Привет! Я — маркетолог с 5-летним опытом создания успешных стратегий для брендов разного масштаба. 
+                Моя специализация — превращать идеи в работающие кампании с измеримым результатом.
+              </p>
+              <p className="text-lg text-muted-foreground mb-6 leading-relaxed">
+                Работал с e-commerce проектами, tech стартапами и локальным бизнесом. 
+                Верю в силу данных, креатива и постоянных тестов.
+              </p>
+              <div className="space-y-4">
+                <div className="flex items-start gap-3">
+                  <div className="w-6 h-6 rounded-full bg-gradient-to-br from-primary to-secondary flex items-center justify-center flex-shrink-0 mt-1">
+                    <Icon name="Check" className="text-white" size={14} />
+                  </div>
+                  <div>
+                    <div className="font-semibold text-lg">Результат превыше всего</div>
+                    <div className="text-muted-foreground">Каждая кампания измеряется в конкретных метриках</div>
+                  </div>
+                </div>
+                <div className="flex items-start gap-3">
+                  <div className="w-6 h-6 rounded-full bg-gradient-to-br from-secondary to-accent flex items-center justify-center flex-shrink-0 mt-1">
+                    <Icon name="Check" className="text-white" size={14} />
+                  </div>
+                  <div>
+                    <div className="font-semibold text-lg">Прозрачность процесса</div>
+                    <div className="text-muted-foreground">Регулярная отчётность и открытая коммуникация</div>
+                  </div>
+                </div>
+                <div className="flex items-start gap-3">
+                  <div className="w-6 h-6 rounded-full bg-gradient-to-br from-accent to-primary flex items-center justify-center flex-shrink-0 mt-1">
+                    <Icon name="Check" className="text-white" size={14} />
+                  </div>
+                  <div>
+                    <div className="font-semibold text-lg">Индивидуальный подход</div>
+                    <div className="text-muted-foreground">Нет шаблонных решений — только уникальная стратегия</div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
