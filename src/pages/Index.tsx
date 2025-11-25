@@ -14,76 +14,82 @@ const Index = () => {
 
   const services = [
     {
+      icon: 'Zap',
+      title: 'Закупка рекламы в Telegram',
+      description: 'Посевы и Telegram Ads с бюджетами от 2 до 26 млн/мес. Отсев некачественных площадок, переговоры о скидках, маркировка и документооборот'
+    },
+    {
       icon: 'Target',
-      title: 'Стратегия бренда',
-      description: 'Разработка уникального позиционирования и стратегии развития вашего бренда на рынке'
+      title: 'Performance-маркетинг',
+      description: 'Полный цикл запуска проектов: анализ ЦА, выбор каналов, тестирование гипотез, оптимизация в реальном времени'
+    },
+    {
+      icon: 'FileText',
+      title: 'Контент-маркетинг',
+      description: 'Разработка контент-стратегии, создание продающих текстов и креативов для рекламных кампаний'
     },
     {
       icon: 'TrendingUp',
-      title: 'Digital-маркетинг',
-      description: 'Комплексное продвижение в интернете: SMM, контекстная реклама, SEO'
-    },
-    {
-      icon: 'Megaphone',
-      title: 'Контент-маркетинг',
-      description: 'Создание вовлекающего контента, который привлекает и удерживает аудиторию'
-    },
-    {
-      icon: 'LineChart',
-      title: 'Аналитика и ROI',
-      description: 'Глубокий анализ эффективности маркетинговых кампаний и оптимизация бюджета'
+      title: 'Запуск онлайн-курсов',
+      description: 'Проектное управление и маркетинг: от анализа до продаж. Воронки, работа с блогерами, аналитика'
     },
     {
       icon: 'Users',
-      title: 'SMM и комьюнити',
-      description: 'Создание и развитие активных сообществ вокруг вашего бренда'
+      title: 'Продвижение личного бренда',
+      description: 'B2B продвижение для экспертов и владельцев бизнеса. Формирование статуса для продажи франшиз и услуг'
     },
     {
-      icon: 'Mail',
-      title: 'Email-маркетинг',
-      description: 'Эффективные email-рассылки с высокой конверсией и вовлечением'
+      icon: 'CheckCircle',
+      title: 'Проверка блогеров',
+      description: 'Анализ площадок на накрутку, оценка эффективности, выбор оптимальных каналов для рекламы'
     }
   ];
 
   const portfolio = [
     {
-      title: 'Рост конверсии на 340%',
-      client: 'E-commerce проект',
-      description: 'Комплексная стратегия продвижения интернет-магазина',
-      metrics: '+340% конверсия, +215% трафик'
+      title: 'Онлайн-курс по пептидам',
+      client: 'Запуск под ключ',
+      description: 'Полный цикл: от анализа ЦА до запуска. Тестовая кампания с бюджетом 100 тыс. руб.',
+      metrics: '93 лида → 27 оплат, чек 38 000₽'
     },
     {
-      title: 'Запуск нового бренда',
-      client: 'Tech стартап',
-      description: 'Разработка бренд-стратегии и выход на рынок с нуля',
-      metrics: '50K подписчиков за 3 месяца'
+      title: 'Рекламные кампании для крупного бизнеса',
+      client: 'Сбер, Домклик, OBI',
+      description: 'Закупка рекламы в Telegram: посевы, маркировка, документооборот',
+      metrics: '10-13 кампаний/мес, бюджет 20-26 млн₽/мес'
     },
     {
-      title: 'Ребрендинг и рост',
-      client: 'Сеть кафе',
-      description: 'Полный ребрендинг и digital-трансформация',
-      metrics: '+180% узнаваемость бренда'
+      title: 'Продвижение франшизы',
+      client: 'Студия балета Левита',
+      description: 'Формирование личного бренда владельцев для B2B продаж франшизы',
+      metrics: 'Экспертный статус + воронка продаж'
+    },
+    {
+      title: 'Работа с топовыми блогерами',
+      client: 'Performance-маркетинг',
+      description: 'Продвижение каналов через @durovinfo, @aprelPR, @metod_Ro, @YuriyRazhev и др.',
+      metrics: '+25% эффективность от оптимизации'
     }
   ];
 
   const blogPosts = [
     {
-      title: 'Тренды маркетинга 2024',
+      title: 'Как проверить блогера на накрутку',
+      date: '20 ноября 2024',
+      excerpt: 'Простые способы определить качество аудитории перед закупкой рекламы',
+      category: 'Telegram'
+    },
+    {
+      title: 'Закупка рекламы: топ-5 ошибок',
       date: '15 ноября 2024',
-      excerpt: 'Какие инструменты и подходы будут определять успех в следующем году',
-      category: 'Тренды'
+      excerpt: 'Разбор частых ошибок при покупке посевов и как их избежать',
+      category: 'Реклама'
     },
     {
-      title: 'Как увеличить ROI рекламы',
+      title: 'Telegram Ads vs посевы: что выбрать',
       date: '10 ноября 2024',
-      excerpt: 'Проверенные методы оптимизации рекламного бюджета',
+      excerpt: 'Сравнение эффективности двух главных инструментов продвижения в Telegram',
       category: 'Аналитика'
-    },
-    {
-      title: 'Психология контента',
-      date: '5 ноября 2024',
-      excerpt: 'Как создавать контент, который действительно продает',
-      category: 'Контент'
     }
   ];
 
@@ -116,10 +122,10 @@ const Index = () => {
         <div className="container mx-auto">
           <div className="max-w-4xl mx-auto text-center animate-fade-in-up">
             <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-primary via-secondary to-accent bg-clip-text text-transparent leading-tight">
-              Маркетинг, который работает
+              Эффективная реклама в Telegram
             </h1>
             <p className="text-xl md:text-2xl text-muted-foreground mb-8 animate-fade-in" style={{ animationDelay: '0.2s' }}>
-              Превращаю идеи в успешные бренды. Стратегия, креатив и результат — всё в одном месте
+              Закупаю рекламу с бюджетами до 26 млн/мес. Performance-маркетинг и запуск проектов под ключ
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center animate-fade-in" style={{ animationDelay: '0.4s' }}>
               <Button size="lg" className="bg-gradient-to-r from-primary to-secondary hover:opacity-90 text-lg px-8">
@@ -134,19 +140,19 @@ const Index = () => {
 
           <div className="mt-20 grid grid-cols-2 md:grid-cols-4 gap-8 max-w-3xl mx-auto animate-scale-in" style={{ animationDelay: '0.6s' }}>
             <div className="text-center">
-              <div className="text-4xl font-bold bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">50+</div>
-              <div className="text-muted-foreground mt-2">Проектов</div>
+              <div className="text-4xl font-bold bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">26 млн</div>
+              <div className="text-muted-foreground mt-2">Рекл. бюджет/мес</div>
             </div>
             <div className="text-center">
-              <div className="text-4xl font-bold bg-gradient-to-r from-secondary to-accent bg-clip-text text-transparent">200%</div>
-              <div className="text-muted-foreground mt-2">Средний рост</div>
+              <div className="text-4xl font-bold bg-gradient-to-r from-secondary to-accent bg-clip-text text-transparent">+25%</div>
+              <div className="text-muted-foreground mt-2">Эффективность</div>
             </div>
             <div className="text-center">
-              <div className="text-4xl font-bold bg-gradient-to-r from-accent to-primary bg-clip-text text-transparent">95%</div>
-              <div className="text-muted-foreground mt-2">Довольных клиентов</div>
+              <div className="text-4xl font-bold bg-gradient-to-r from-accent to-primary bg-clip-text text-transparent">10-13</div>
+              <div className="text-muted-foreground mt-2">Кампаний/мес</div>
             </div>
             <div className="text-center">
-              <div className="text-4xl font-bold bg-gradient-to-r from-primary via-secondary to-accent bg-clip-text text-transparent">5 лет</div>
+              <div className="text-4xl font-bold bg-gradient-to-r from-primary via-secondary to-accent bg-clip-text text-transparent">4 года</div>
               <div className="text-muted-foreground mt-2">Опыта</div>
             </div>
           </div>
@@ -171,12 +177,12 @@ const Index = () => {
                 Обо мне
               </h2>
               <p className="text-lg text-muted-foreground mb-6 leading-relaxed">
-                Привет! Я — маркетолог с 5-летним опытом создания успешных стратегий для брендов разного масштаба. 
-                Моя специализация — превращать идеи в работающие кампании с измеримым результатом.
+                Performance-маркетолог и закупщик рекламы в Telegram с 4-летним опытом.
+                Специализируюсь на посевах и Telegram Ads с крупными бюджетами.
               </p>
               <p className="text-lg text-muted-foreground mb-6 leading-relaxed">
-                Работал с e-commerce проектами, tech стартапами и локальным бизнесом. 
-                Верю в силу данных, креатива и постоянных тестов.
+                Работал с <strong className="text-foreground">Сбером, Домкликом, OBI</strong> — осваивал бюджет 20-26 млн рублей/мес, вёл 10-13 кампаний одновременно.
+                Запускаю онлайн-курсы под ключ и развиваю личные бренды для B2B.
               </p>
               <div className="space-y-4">
                 <div className="flex items-start gap-3">
@@ -184,8 +190,8 @@ const Index = () => {
                     <Icon name="Check" className="text-white" size={14} />
                   </div>
                   <div>
-                    <div className="font-semibold text-lg">Результат превыше всего</div>
-                    <div className="text-muted-foreground">Каждая кампания измеряется в конкретных метриках</div>
+                    <div className="font-semibold text-lg">Проверка качества площадок</div>
+                    <div className="text-muted-foreground">Отсев накрученных блогеров и неэффективных каналов</div>
                   </div>
                 </div>
                 <div className="flex items-start gap-3">
@@ -193,8 +199,8 @@ const Index = () => {
                     <Icon name="Check" className="text-white" size={14} />
                   </div>
                   <div>
-                    <div className="font-semibold text-lg">Прозрачность процесса</div>
-                    <div className="text-muted-foreground">Регулярная отчётность и открытая коммуникация</div>
+                    <div className="font-semibold text-lg">Оптимизация бюджета</div>
+                    <div className="text-muted-foreground">Скидки от проверенных площадок, +25% эффективность</div>
                   </div>
                 </div>
                 <div className="flex items-start gap-3">
@@ -202,8 +208,8 @@ const Index = () => {
                     <Icon name="Check" className="text-white" size={14} />
                   </div>
                   <div>
-                    <div className="font-semibold text-lg">Индивидуальный подход</div>
-                    <div className="text-muted-foreground">Нет шаблонных решений — только уникальная стратегия</div>
+                    <div className="font-semibold text-lg">Полный документооборот</div>
+                    <div className="text-muted-foreground">Маркировка рекламы, отчёты, закрывающие документы</div>
                   </div>
                 </div>
               </div>
